@@ -1,1 +1,24 @@
-/* Denna fil skall innehålla din CSS kod */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+    height: 10vh;
+}
+
+
+.headeritems{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    width: 200px;
+}
+body{
+    font-family: 'Anton', sans-serif;
+}
+
+
