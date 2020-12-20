@@ -1,24 +1,205 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: lightgrey;
-    height: 10vh;
+    display: grid;
+    grid-template-areas: 
+      "logo"
+      "meny"
+      ;
+    grid-template-columns: 100vw;
+    grid-template-rows: 17vh 12vh;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
+
+
+nav{
+    grid-area: meny;
+    display: flex;
+    font-size: 120%;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(228, 192, 198);
+    border-bottom: 5px solid #000000;
+}
 
 .headeritems{
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
     color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+
 }
 
 #logo{
-    width: 200px;
+    grid-area: logo;
+    background-image:url(/img/Logo_pic.png);
+    background-size:contain ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(228, 192, 198) ;
+    
 }
 body{
     font-family: 'Anton', sans-serif;
+    background-image: url(/img/photo-1521406165259-fe90230792da.jpeg);
+    background-position: center;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0%;
+}
+
+#alt1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    background-color:rgb(228, 192, 198);
+    opacity: 90%;
+    border: 5px solid #FFFFFF;
+    border-radius: 21px;
+}
+
+.text{
+    margin-left:32.5%;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.pris{
+    margin-left: 39%;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.info{
+    margin: 15px;
+}
+
+#alt2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    background-color:rgb(228, 192, 198);
+    opacity: 90%;
+    border: 5px solid #FFFFFF;
+    border-radius: 21px;
+}
+
+#alt3{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    background-color:rgb(228, 192, 198);
+    opacity: 90%;
+    border: 5px solid #FFFFFF;
+    border-radius: 21px;
+}
+
+.food{
+    height: 100px;
+}
+
+#meny{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px ;
+}
+
+.bild1{
+    height: 60%;
+    width: 100%;
+    background-position: cover;
+    background-image: url(/img/pannkakor.jpeg);
+}
+
+#restaurang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#contact{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 400px;
+    width:80%;
+    background-color:rgb(228, 192, 198);
+    opacity: 90%;
+    border: 5px solid #FFFFFF;
+    border-radius: 21px;
+    margin-top: 50px;
+}
+
+.restext{
+    margin-left:9.5%;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    
+}
+
+.rest1{
+    margin: 20px;
+    font-size: 20px;
+}
+
+#menysidan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px ;
+}
+
+#meny1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 800px;
+    width: 350px;
+    background-color:rgb(228, 192, 198);
+    opacity: 90%;
+    border: 5px solid #FFFFFF;
+    border-radius: 21px;
 }
 
 
+#meny2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 800px;
+    width: 350px;
+    background-color:rgb(228, 192, 198);
+    opacity: 90%;
+    border: 5px solid #FFFFFF;
+    border-radius: 21px;
+}
+
+#meny3{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 800px;
+    width: 350px;
+    background-color:rgb(228, 192, 198);
+    opacity: 90%;
+    border: 5px solid #FFFFFF;
+    border-radius: 21px;
+}
+
+.menyalt{
+    margin: 10px;
+}

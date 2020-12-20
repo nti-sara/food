@@ -1,0 +1,6 @@
+
+
+RESTAURANG WEBB
+
+
+Jag hade tänkt att skapa en resturang sida ska bestå utav 3 olika html sidor som är kopplade till varandra. Hemsidan heter “milky” och säljer allt från våfflor till smoothies. Jag har skapat loggan i Ai och använt mig utav lager masker. Processen arbetsgång har gått bra. Om jag fastnade  någonstans och behövde hjälp så använder jag mig utav w3schools för lite hjälp på traven. Jag frågade även mina klasskamrater om feedback på min hemsida under processen, och fick råd och ideer för att kunna utveckla min sida. Jag tycker att det har varit svårt när det gäller att bestämma sig om hemsidans utseende eftersom jag valde att göra om min hemsida. 
